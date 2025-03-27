@@ -1,0 +1,59 @@
+Project: basic_scan
+Section: Network Setup & Troubleshooting
+Date: March 27, 2025
+
+---
+
+🔧 Goal:
+Set up a private, offline network in VMware for scanning practice using:
+
+- Kali Linux (attacker)
+- Windows 10 (target)
+- Android x86 (target)
+
+No internet needed. Just local traffic.
+
+---
+
+🌐 Network Details:
+- Network: vmnet1 (host-only)
+- Subnet: 172.16.252.0/24
+- Gateway: 172.16.252.1 (VMware’s default for vmnet1)
+
+Static IPs assigned:
+- Kali: 172.16.252.10
+- Windows 10: 172.16.252.20
+- Android: 172.16.252.40
+
+---
+
+🛠 Problems Encountered:
+1. **Kali couldn’t ping Android**
+   - Checked Android’s network interface — it was up with correct IP
+   - Flushed iptables just in case (`iptables -F`)
+   - Added default gateway manually:
+     `ip route add default via 172.16.252.1 dev wifi_eth`
+   - Still couldn’t ping Kali from Android
+
+2. **Used Nmap instead**
+   - Ran: `nmap -sP 172.16.252.0/24`
+   - Android showed up as “host is up” — so it's reachable even if ping doesn’t work
+   - That’s good enough for scanning!
+
+---
+
+✅ Result:
+- All three VMs are connected and working inside vmnet1
+- Ping may not work on Android, but Nmap detects it — so we’re good to go
+
+---
+
+🧠 Takeaways:
+- Don’t rely only on ping — tools like Nmap can confirm hosts even when ping fails
+- Android x86 is quirky — just get it to show up in a scan and call it a win
+- Manual IP setup is key when using host-only networks
+
+---
+
+Next Step: Make a simple diagram of the network layout and begin scanning tasks.
+
