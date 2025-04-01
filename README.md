@@ -13,7 +13,7 @@ This is where I explore offensive and defensive security concepts, test tools, p
 - 🧠 **Write-ups & Walkthroughs** – Notes, screenshots, and analysis of each project
 - 🧰 **Toolchains in Practice** – Using and testing tools like Burp Suite, John the Ripper, Wireshark, and more
 
-Some projects use scripts from my [cyber_forge](https://github.com/roguewizard42/cyber_forge) repo to streamline attacks or speed up recon.
+Some projects use scripts from my other repos to streamline attacks or speed up recon.
 
 ---
 
