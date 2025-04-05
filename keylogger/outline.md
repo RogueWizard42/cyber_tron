@@ -15,7 +15,7 @@ This lab lives in the `dark_arts_lab` GitHub repo and is designed to show real, 
 
 ---
 
-## 🛠️ Project Flow
+## Project Flow
 
 ### 1. Keylogger Build (Python)
 - Build a Python script using the `keyboard` module
@@ -69,7 +69,7 @@ This lab lives in the `dark_arts_lab` GitHub repo and is designed to show real, 
 
 ## 💡 Notes
 
-- This project is being built from scratch to demonstrate real ability, not just copied scripts.
+- This project is being built from scratch to learn, and develop skills
 - Screenshots will be taken throughout key phases and stored in `/screenshots/`
 - Once the lab is completed, files will be committed and pushed to GitHub for reference
 
