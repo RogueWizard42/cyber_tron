@@ -1,9 +1,10 @@
-# 🧪 dark_arts_lab
+# 🛡️ cyber_lab
 
-Welcome to **dark_arts_lab** — my personal hacking(ethical!) and experimentation zone.
+Welcome to cyber_lab — my personal playground for ethical hacking and cybersecurity experimentation.
+This is where I explore offensive and defensive security concepts, practice with tools like Nmap, John the Ripper, and Metasploit, and work through vulnerable machine labs and network simulations. Some projects succeed, some break, and all of them teach me something.
 
-This is where I explore offensive and defensive security concepts, test tools, poke at vulnerable machines, and figure things out the hard way. Some of it works, some of it breaks, but that's all the fun of it.
-
+   - ⚠️ All work is performed in isolated lab environments for educational purposes only.
+    
 ---
 
 ## 🧱 What's Inside
