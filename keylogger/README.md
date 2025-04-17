@@ -8,7 +8,7 @@ A hands-on cybersecurity lab simulating a post-exploitation scenario in which a 
 
 ## Overview
 
-This lab was created to learn and demonstrate real-world skills in Python scripting, red team tactics, and ethical hacking workflows. It is part of the `dark_arts_lab` repo series and focuses on developing a simple but functional keylogger, exploiting a target machine using Metasploit, and exfiltrating captured keystroke logs.
+This lab was created to learn and demonstrate real-world skills in Python scripting, red team tactics, and ethical hacking workflows. It is part of the `cyber_lab` repo series and focuses on developing a simple but functional keylogger, exploiting a target machine using Metasploit, and exfiltrating captured keystroke logs.
 
 ---
 
