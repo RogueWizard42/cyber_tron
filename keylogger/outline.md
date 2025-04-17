@@ -11,7 +11,7 @@
 
 Build and deploy a basic Python-based keylogger inside a virtual lab. This project simulates a post-exploitation scenario where a keylogger is manually installed on a compromised machine. The goal is to develop a functional tool, understand how data exfiltration works, and showcase ethical red team techniques.
 
-This lab lives in the `dark_arts_lab` GitHub repo and is designed to show real, usable skills.
+This lab lives in the `cyber_lab` GitHub repo and is designed to show real, usable skills.
 
 ---
 
