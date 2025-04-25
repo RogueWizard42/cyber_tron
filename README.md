@@ -1,6 +1,6 @@
-# 🛡️ cyber_lab
+# 🛡️ cyber_tron
 
-Welcome to cyber_lab — my personal playground for ethical hacking and cybersecurity experimentation.
+Welcome to cyber_tron — my personal playground for ethical hacking and cybersecurity experimentation.
 This is where I explore offensive and defensive security concepts, practice with tools like Nmap, John the Ripper, and Metasploit, and work through vulnerable machine labs and network simulations. Some projects succeed, some break, and all of them teach me something.
 
    - ⚠️ All work is performed in isolated lab environments for educational purposes only.
